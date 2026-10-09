@@ -35,7 +35,7 @@ Current engineering areas include:
 - CMake + MSVC/GCC/Clang build support
 - Qt/QML launcher development
 
-Related experimental efforts include **Project Gracemeria** (Ace Combat 6) and **Project Gaia** (Sonic Unleashed).
+Related experimental efforts include **Project Gracemeria** (Ace Combat 6) and **Project Gears** (Gears of War 2).
 
 > Status note: these are active R&D projects. Features and compatibility are evolving, and nothing here should be interpreted as a claim of full game playability or completion.
 
