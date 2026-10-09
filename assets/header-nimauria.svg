@@ -1,0 +1,33 @@
+<svg width="1400" height="320" viewBox="0 0 1400 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NIMAURIA profile header</title>
+  <desc id="desc">Dark technical banner with cyan accent and NIMAURIA title</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050A13"/>
+      <stop offset="1" stop-color="#0A1628"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="52" x2="1180" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1BC7E8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#3E7BFF" stop-opacity="0.75"/>
+    </linearGradient>
+    <filter id="softGlow" x="0" y="0" width="1400" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="320" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.22">
+    <path d="M0 250L290 120L530 170L760 70L1040 130L1400 40" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M0 280L250 170L470 220L790 130L1040 190L1400 100" stroke="url(#accent)" stroke-width="1.5"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <rect x="98" y="84" width="1204" height="2" fill="url(#accent)"/>
+    <rect x="98" y="236" width="1204" height="2" fill="url(#accent)"/>
+  </g>
+
+  <text x="100" y="188" fill="#E6F6FF" font-size="88" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.18em">NIMAURIA</text>
+  <text x="103" y="224" fill="#87B6D6" font-size="20" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" letter-spacing="0.08em">SYSTEMS ENGINEERING · RUNTIME DEVELOPMENT · REVERSE ENGINEERING</text>
+</svg>
